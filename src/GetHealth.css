@@ -1,0 +1,17 @@
+.health-container {
+  width: 50%;
+  margin: 1rem auto;
+}
+.btn-health {
+  font-size: 1.6rem;
+  padding: 0.75rem 0.75rem;
+  background-color: #ff3f6c;
+  color: #fff;
+  border: 2px solid #e6e6e6;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+.health-text {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}

@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 :root {
   font-size: 62.5%;
 }
 
 .App {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background-color: lavender;
 }
@@ -16,5 +18,5 @@ h1 {
   text-align: center;
   padding-top: 2rem;
   color: #3e4152;
-  margin-bottom: 4rem;
+  padding-bottom: 5rem;
 }

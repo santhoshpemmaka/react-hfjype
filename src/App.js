@@ -2,6 +2,7 @@ import React from 'react';
 import GetHealth from './GetHealth.js';
 import GetProducts from './GetProducts.js';
 import GetProduct from './GetProduct.js';
+import CreateProduct from './CreateProduct.js';
 import './style.css';
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <GetHealth />
       <GetProducts />
       <GetProduct />
+      <CreateProduct />
     </div>
   );
 }

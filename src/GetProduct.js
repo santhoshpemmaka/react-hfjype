@@ -10,7 +10,9 @@ const GetProduct = () => {
       const URL = `https://61f87oxx9f.execute-api.eu-west-2.amazonaws.com/Prod/product?productid=${inputId}`;
       const response = await fetch(URL);
       const jsonData = await response.json();
-      setproductInfo(jsonData);
+      if (response.status === 200 || response.status === 201) {
+        setproductInfo(jsonData);
+      }
     } catch (err) {
       throw new Error('API Failed');
     }
@@ -20,13 +22,15 @@ const GetProduct = () => {
     <div className="products-container">
       <h3 className="product-info">Get Product Info</h3>
       <input
-      className="product-input"
+        className="product-input"
         type="text"
         value={inputId}
         onChange={(e) => setinputId(e.target.value)}
         placeholder="Product search ID"
       />
-      <button className="submit-btn" onClick={() => productHandler()}>Get Product Info</button>
+      <button className="submit-btn" onClick={() => productHandler()}>
+        Get Product Info
+      </button>
       <div>
         {productInfo && (
           <>

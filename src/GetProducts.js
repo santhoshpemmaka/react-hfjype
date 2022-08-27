@@ -28,7 +28,7 @@ const GetProducts = () => {
         <>
           <br />
           <span className="product-id">Product Id</span>
-          <span className="product-price">Product price</span>
+          <span className="product-price">Product Price</span>
           <span className="product-color">Product Color</span>
           <hr />
           {getProducts?.products?.map((product) => (

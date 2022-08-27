@@ -1,0 +1,39 @@
+.product-create-container {
+  width: 50%;
+  margin: 1rem auto;
+  padding-bottom: 5rem;
+}
+
+.label-input {
+  display: block;
+  font-size: 1.8rem;
+}
+.input-text {
+  width: 20%;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  border: 2px solid #e6e6e6;
+  border-radius: 0.25rem;
+}
+.left-margin {
+  margin-left: 7.2rem;
+}
+.create-btn {
+  font-size: 1.6rem;
+  padding: 0.75rem 0.75rem;
+  background-color: #ff3f6c;
+  color: #fff;
+  border: 2px solid #e6e6e6;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  display: block;
+  margin: 1rem 0rem;
+}
+.response-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  color: #3e4152;
+}
